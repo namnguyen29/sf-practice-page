@@ -1,0 +1,200 @@
+{
+  "type" : "sfdc_cms__themeLayout",
+  "title" : "Main Theme",
+  "contentBody" : {
+    "component" : {
+      "attributes" : { },
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"0e51e6f1-e64c-4fe3-8af0-f008db2e9f46\",\"columns\":[{\"UUID\":\"e4b96871-5ab4-466d-acf0-a08f5c1ec427\",\"columnName\":\"Column 1\",\"columnKey\":\"headerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "id" : "e4b96871-5ab4-466d-acf0-a08f5c1ec427",
+            "name" : "headerSection",
+            "title" : "Theme Header",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "0e51e6f1-e64c-4fe3-8af0-f008db2e9f46",
+          "type" : "component"
+        } ],
+        "id" : "6113566c-d436-4478-8071-8b7760444a72",
+        "name" : "header",
+        "title" : "Theme Header",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"4219b367-bab2-489d-92d5-271cc4f09e95\",\"columns\":[{\"UUID\":\"1e8aa369-a07e-4c6b-b7d9-85cb6131ccc2\",\"columnName\":\"Column 1\",\"columnKey\":\"footerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "id" : "1e8aa369-a07e-4c6b-b7d9-85cb6131ccc2",
+            "name" : "footerSection",
+            "title" : "Theme Footer",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "4219b367-bab2-489d-92d5-271cc4f09e95",
+          "type" : "component"
+        } ],
+        "id" : "60f74cd2-e98e-4480-9830-63543377cacb",
+        "name" : "footer",
+        "title" : "Theme Footer",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "backgroundColor" : "",
+            "isLinkable" : false,
+            "linkAssistiveText" : "",
+            "paddingHorizontal" : "none",
+            "paddingVertical" : "none",
+            "text" : "Header",
+            "textAlign" : "center",
+            "textDecoration" : "{}",
+            "textDisplayInfo" : "{\"textStyle\":\"heading-medium\",\"headingTag\":\"h3\",\"enableOverride\":false}"
+          },
+          "definition" : "dxp_base:textBlock",
+          "id" : "be3c761e-ac4f-41b0-8132-0e8e050c8d80",
+          "type" : "component"
+        } ],
+        "id" : "54085f11-2531-4d7d-8819-065c9f40a5e2",
+        "name" : "mainHeader",
+        "type" : "region"
+      }, {
+        "id" : "75b10e50-3ec1-45e3-80b7-8d673a9e794c",
+        "name" : "mainFooter",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "columnGutterWidth" : "",
+            "columnMinHeight" : "",
+            "columnVerticalAlign" : "flex-start",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "sectionConfig" : "{\"UUID\":\"073061b0-ebfa-4cae-94da-e8446dd0ef10\",\"columns\":[{\"UUID\":\"eca400e3-952e-4ebd-bf1c-4e1dfcc8be64\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"01efeb31-6171-4a8f-a360-be42553f54ae\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "aspectRatio" : "16:9",
+                "size" : 100,
+                "videoUrl" : "https://www.youtube.com/embed/ExKUvFrwU_c?si=a48RXr5cMZUbUXvj"
+              },
+              "definition" : "dxp_base:video",
+              "id" : "199e0239-c3cd-4f14-9940-cb98d4b2ac90",
+              "type" : "component"
+            } ],
+            "id" : "eca400e3-952e-4ebd-bf1c-4e1dfcc8be64",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "buttonAlignment" : "left",
+                "buttonSize" : "standard",
+                "buttonText" : "Submit",
+                "customFieldOneConfig" : "{\"fieldInputType\":\"Text\",\"isFieldInputTypeEditable\":true,\"fieldMaxLength\":null,\"fieldApiName\":\"test\"}",
+                "customFieldOneLabel" : "Custom Field Label",
+                "customFieldOnePlaceholder" : "Custom Field Placeholder",
+                "customFieldThreeConfig" : "{\"fieldInputType\":\"Text\",\"isFieldInputTypeEditable\":true,\"fieldMaxLength\":null,\"fieldApiName\":\"\"}",
+                "customFieldThreeLabel" : "Custom Field Label",
+                "customFieldThreePlaceholder" : "Custom Field Placeholder",
+                "customFieldTwoConfig" : "{\"fieldInputType\":\"Text\",\"isFieldInputTypeEditable\":true,\"fieldMaxLength\":null,\"fieldApiName\":\"\"}",
+                "customFieldTwoLabel" : "Custom Field Label",
+                "customFieldTwoPlaceholder" : "Custom Field Placeholder",
+                "descriptionFieldConfig" : "{\"fieldInputType\":\"Text\",\"isFieldInputTypeEditable\":false,\"fieldMaxLength\":null,\"fieldApiName\":\"Description\"}",
+                "descriptionLabel" : "Description",
+                "descriptionPlaceholder" : "Enter your description",
+                "emailFieldConfig" : "{\"fieldInputType\":\"Email\",\"isFieldInputTypeEditable\":false,\"fieldMaxLength\":null,\"fieldApiName\":\"SuppliedEmail\"}",
+                "emailLabel" : "Email",
+                "emailPlaceholder" : "Enter your email address",
+                "fullNameFieldConfig" : "{\"fieldInputType\":\"Text\",\"isFieldInputTypeEditable\":false,\"fieldMaxLength\":null,\"fieldApiName\":\"SuppliedName\"}",
+                "fullNameLabel" : "Full Name",
+                "fullNamePlaceholder" : "Enter your name",
+                "isCustomFieldOneRequired" : false,
+                "isCustomFieldThreeRequired" : false,
+                "isCustomFieldTwoRequired" : false,
+                "isDescriptionRequired" : false,
+                "isEmailRequired" : false,
+                "isFullNameRequired" : false,
+                "isPhoneRequired" : false,
+                "isSubjectRequired" : false,
+                "phoneFieldConfig" : "{\"fieldInputType\":\"Phone\",\"isFieldInputTypeEditable\":false,\"fieldMaxLength\":null,\"fieldApiName\":\"SuppliedPhone\"}",
+                "phoneLabel" : "Phone",
+                "phonePlaceholder" : "Enter your phone number",
+                "position" : "left",
+                "showCustomFieldOne" : false,
+                "showCustomFieldThree" : false,
+                "showCustomFieldTwo" : false,
+                "showDescription" : true,
+                "showEmail" : true,
+                "showFormLabels" : true,
+                "showFullName" : true,
+                "showPhone" : true,
+                "showSubject" : true,
+                "showSubtitle" : true,
+                "showTitle" : true,
+                "subjectFieldConfig" : "{\"fieldInputType\":\"Text\",\"isFieldInputTypeEditable\":false,\"fieldMaxLength\":null,\"fieldApiName\":\"Subject\"}",
+                "subjectLabel" : "Subject",
+                "subjectPlaceholder" : "Enter your subject",
+                "submitActionCustomErrorMessage" : "Looks like something went wrong.",
+                "submitActionSuccessInlineMessage" : "Thank you!",
+                "submitActionSuccessInlineMessageFontSize" : "small",
+                "submitActionSuccessInlineMessagePosition" : "left",
+                "submitActionType" : "inline",
+                "subtitle" : "Tell us how we can help.",
+                "title" : "Contact customer support",
+                "width" : 100
+              },
+              "definition" : "dxp_form:contactSupportForm",
+              "id" : "bc849b41-9914-4dbc-ad7a-d6040a16f02d",
+              "type" : "component"
+            } ],
+            "id" : "01efeb31-6171-4a8f-a360-be42553f54ae",
+            "name" : "col2",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "dxp_layout:columns",
+          "id" : "073061b0-ebfa-4cae-94da-e8446dd0ef10",
+          "type" : "component"
+        } ],
+        "id" : "180d9b24-70fe-46b2-92f9-1b48ffc27445",
+        "name" : "mainContent",
+        "type" : "region"
+      } ],
+      "definition" : "c:mainTheme",
+      "id" : "cc7b7b40-d2c9-4a14-b745-9664eaf34c56",
+      "type" : "component"
+    }
+  },
+  "urlName" : "main-theme"
+}
