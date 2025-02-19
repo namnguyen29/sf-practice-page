@@ -9,14 +9,6 @@
   "plugins": ["prettier-plugin-apex", "@prettier/plugin-xml"],
   "overrides": [
     {
-      "files": "*.{cls,trigger}",
-      "options": {
-        "tabWidth": 2,
-        "printWidth": 100,
-        "parser": "apex"
-      }
-    },
-    {
       "files": "**/lwc/**/*.html",
       "options": { "parser": "lwc" }
     },

@@ -1,0 +1,19 @@
+.main-theme {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+  overflow-x: hidden;
+
+  header {
+    height: 70px;
+  }
+
+  main {
+    flex: 1;
+    padding: 0rem 1rem;
+  }
+
+  footer {
+    display: block;
+  }
+}
