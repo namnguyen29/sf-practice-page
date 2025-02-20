@@ -2,7 +2,7 @@
   "trailingComma": "none",
   "tabWidth": 2,
   "printWidth": 100,
-  "endOfLine": "crlf",
+  "endOfLine": "lf",
   "arrowParens": "always",
   "bracketSameLine": false,
   "bracketSpacing": true,
