@@ -86,47 +86,31 @@
         "name" : "mainHeader",
         "type" : "region"
       }, {
+        "children" : [ {
+          "attributes" : {
+            "backgroundColor" : "",
+            "isLinkable" : false,
+            "linkAssistiveText" : "",
+            "paddingHorizontal" : "none",
+            "paddingVertical" : "none",
+            "text" : "Footer",
+            "textAlign" : "center",
+            "textDecoration" : "{}",
+            "textDisplayInfo" : "{\"textStyle\":\"heading-medium\",\"headingTag\":\"h3\",\"enableOverride\":false}"
+          },
+          "definition" : "dxp_base:textBlock",
+          "id" : "48dceb06-2526-499e-bfeb-0e874b55c015",
+          "type" : "component"
+        } ],
         "id" : "75b10e50-3ec1-45e3-80b7-8d673a9e794c",
         "name" : "mainFooter",
         "type" : "region"
       }, {
-        "children" : [ {
-          "attributes" : {
-            "columnGutterWidth" : "",
-            "columnMinHeight" : "",
-            "columnVerticalAlign" : "flex-start",
-            "dxpStyle" : { },
-            "layoutDirectionDesktop" : "row",
-            "layoutDirectionMobile" : "column",
-            "layoutDirectionTablet" : "column",
-            "sectionConfig" : "{\"UUID\":\"073061b0-ebfa-4cae-94da-e8446dd0ef10\",\"columns\":[{\"UUID\":\"eca400e3-952e-4ebd-bf1c-4e1dfcc8be64\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"01efeb31-6171-4a8f-a360-be42553f54ae\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
-          },
-          "children" : [ {
-            "id" : "eca400e3-952e-4ebd-bf1c-4e1dfcc8be64",
-            "name" : "col1",
-            "title" : "Column 1",
-            "type" : "region"
-          }, {
-            "children" : [ {
-              "attributes" : { },
-              "definition" : "c:demoCard",
-              "id" : "28324310-4bfa-4843-897a-998c5238ee96",
-              "type" : "component"
-            } ],
-            "id" : "01efeb31-6171-4a8f-a360-be42553f54ae",
-            "name" : "col2",
-            "title" : "Column 2",
-            "type" : "region"
-          } ],
-          "definition" : "dxp_layout:columns",
-          "id" : "073061b0-ebfa-4cae-94da-e8446dd0ef10",
-          "type" : "component"
-        } ],
         "id" : "180d9b24-70fe-46b2-92f9-1b48ffc27445",
         "name" : "mainContent",
         "type" : "region"
       } ],
-      "definition" : "c:mainTheme",
+      "definition" : "c:mainThemeLayout",
       "id" : "cc7b7b40-d2c9-4a14-b745-9664eaf34c56",
       "type" : "component"
     }

@@ -21,13 +21,26 @@
           },
           "children" : [ {
             "children" : [ {
-              "attributes" : {
-                "dxpStyle" : { },
-                "imageInfos" : "",
-                "richTextValue" : "<div style=\"display: flex; justify-content: center; align-items: center; margin: 50px 0; flex-direction: column; text-align: center;\"><div style=\"background-image: url(assets/img/desert.svg) !important; background-size: cover; background-position: center; height: 300px; width: 100%; max-width: 600px; min-width: 300px;\"></div><h1 class=\"slds-text-heading_medium slds-p-bottom_x-small\">Start Building Your Page</h1> <div>Drag and drop a component into the content slots.</div></div>"
-              },
-              "definition" : "community_builder:htmlEditor",
-              "id" : "77438ab0-11ca-43f7-8bde-62d788ab137e",
+              "attributes" : { },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : { },
+                  "definition" : "c:demoCard",
+                  "id" : "816b1cf2-fa03-46ec-b600-0bdfbd35f534",
+                  "type" : "component"
+                } ],
+                "id" : "9175b0c6-77d8-4812-a2b3-8dbf2fe01dea",
+                "name" : "grayZone",
+                "title" : "grayZone",
+                "type" : "region"
+              }, {
+                "id" : "984d39a8-41e5-4a0f-a5a6-34c29bfc5f84",
+                "name" : "bigZone",
+                "title" : "bigZone",
+                "type" : "region"
+              } ],
+              "definition" : "c:homePageLayout",
+              "id" : "a0858f57-1289-44da-99a2-d8a4c76858b2",
               "type" : "component"
             } ],
             "id" : "71235290-4afc-462e-a0b5-1d9527ef5374",

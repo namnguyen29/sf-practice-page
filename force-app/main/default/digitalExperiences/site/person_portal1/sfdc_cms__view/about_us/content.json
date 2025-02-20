@@ -1,0 +1,42 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "about-us",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "id" : "cbc214e7-b8d4-4918-8309-527a3baeb9d5",
+        "name" : "grayZone",
+        "title" : "grayZone",
+        "type" : "region"
+      }, {
+        "id" : "76232303-85db-4e33-98a0-f7748bbb86ad",
+        "name" : "bigZone",
+        "title" : "bigZone",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "about-us",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "5f21bff6-deb1-4c95-a28d-cba74e182f52",
+          "type" : "component"
+        } ],
+        "id" : "de52b61c-f13f-4d0d-a837-fa848af5fbc5",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "c:homePageLayout",
+      "id" : "8e67c36c-5161-4489-aa35-a815d3a164f3",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "upAyMhnY9Blzcpi7CLqdasMAFAb5Kc",
+    "viewType" : "custom-about-us"
+  },
+  "urlName" : "about-us"
+}

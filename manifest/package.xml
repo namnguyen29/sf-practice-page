@@ -6,7 +6,8 @@
 		<name>ApexClass</name>
 	</types>
 	<types>
-		<members>mainTheme</members>
+		<members>mainThemeLayout</members>
+		<members>homePageLayout</members>
 		<members>demoCard</members>
 		<name>LightningComponentBundle</name>
 	</types>
