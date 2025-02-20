@@ -1,0 +1,30 @@
+<template>
+  <form novalidate onsubmit={handleSubmit}>
+    <lightning-input
+      required
+      type="text"
+      label="Username"
+      placeholder="Username"
+      name="username"
+      message-when-value-missing="Please enter a username"
+      onchange={handleChange}
+    ></lightning-input>
+    <lightning-input
+      required
+      type="password"
+      label="Password"
+      placeholder="Password"
+      name="password"
+      message-when-value-missing="Please enter a password"
+      onchange={handleChange}
+    ></lightning-input>
+
+    <lightning-button type="submit" variant="outline" label="Submit"></lightning-button>
+  </form>
+
+  <code>
+    <pre>
+      {formValuesJson}
+    </pre>
+  </code>
+</template>
