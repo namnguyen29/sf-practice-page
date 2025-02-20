@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
 		<members>MyIterable</members>
@@ -6,10 +6,8 @@
 		<name>ApexClass</name>
 	</types>
 	<types>
-		<members>mainThemeLayout</members>
-		<members>homePageLayout</members>
-		<members>demoCard</members>
-		<name>LightningComponentBundle</name>
+		<members>*</members>
+		<name>CustomSite</name>
 	</types>
 	<types>
 		<members>site/person_portal1.sfdc_cms__appPage/mainAppPage</members>
@@ -17,6 +15,7 @@
 		<members>site/person_portal1.sfdc_cms__languageSettings/languages</members>
 		<members>site/person_portal1.sfdc_cms__mobilePublisherConfig/mobilePublisherConfig</members>
 		<members>site/person_portal1.sfdc_cms__route/Check_Password</members>
+		<members>site/person_portal1.sfdc_cms__route/Documents__c</members>
 		<members>site/person_portal1.sfdc_cms__route/Error</members>
 		<members>site/person_portal1.sfdc_cms__route/Forgot_Password</members>
 		<members>site/person_portal1.sfdc_cms__route/Home</members>
@@ -29,8 +28,10 @@
 		<members>site/person_portal1.sfdc_cms__styles/print_css</members>
 		<members>site/person_portal1.sfdc_cms__styles/styles_css</members>
 		<members>site/person_portal1.sfdc_cms__theme/Build_Your_Own_LWR</members>
+		<members>site/person_portal1.sfdc_cms__themeLayout/Main_Theme</members>
 		<members>site/person_portal1.sfdc_cms__themeLayout/scopedHeaderAndFooter</members>
 		<members>site/person_portal1.sfdc_cms__themeLayout/snaThemeLayout</members>
+		<members>site/person_portal1.sfdc_cms__view/Documents</members>
 		<members>site/person_portal1.sfdc_cms__view/checkPasswordResetEmail</members>
 		<members>site/person_portal1.sfdc_cms__view/error</members>
 		<members>site/person_portal1.sfdc_cms__view/forgotPassword</members>
@@ -51,8 +52,10 @@
 		<name>DigitalExperienceConfig</name>
 	</types>
 	<types>
-		<members>*</members>
-		<name>CustomSite</name>
+		<members>demoCard</members>
+		<members>homePageLayout</members>
+		<members>mainThemeLayout</members>
+		<name>LightningComponentBundle</name>
 	</types>
 	<types>
 		<members>*</members>
